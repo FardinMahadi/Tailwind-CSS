@@ -1,0 +1,20 @@
+npm init
+npm install -D tailwindcss
+npx tailwindcss init
+
+
+*write content directory on tailwind.config.js file as below
+content: ["index.html"]
+
+*paste text in input.css file from 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* build a function in scripts section in package.json file
+"build": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+and write npm run build
+
+
+
+<-- Run tailwind css happily -->

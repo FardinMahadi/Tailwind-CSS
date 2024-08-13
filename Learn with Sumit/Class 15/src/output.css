@@ -1,0 +1,29 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+.btn {
+  --tw-bg-opacity: 1;
+  background-color: rgb(37 99 235 / var(--tw-bg-opacity));
+  text-align: center;
+  font-size: 0.875rem;
+  line-height: 1.25rem
+}
+
+@media (min-width: 540) {
+  .btn {
+    text-align: left
+  }
+}
+
+@media (min-width: 1000) {
+  .btn {
+    text-align: right
+  }
+}
+
+@media (min-width: 2560) {
+  .btn {
+    text-align: center
+  }
+}
